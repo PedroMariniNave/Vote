@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Vote">
+    <output-path>$USER_HOME$/Desktop/Testar/plugins</output-path>
+    <root id="archive" name="Vote.jar">
+      <element id="module-output" name="Vote [Rankup Overpower]" />
+      <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:4.0.3" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

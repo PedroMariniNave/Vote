@@ -1,0 +1,7 @@
+name: Vote
+description: A vote plugin with shop and more!
+version: 1.0
+api-version: 1.8
+author: zPedroo_
+main: com.zpedroo.voltzvote.VoltzVote
+depend: [Votifier]

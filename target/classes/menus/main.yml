@@ -1,0 +1,35 @@
+Inventory:
+  title: "Votos"
+  size: 27
+  items:
+    1:
+      action: VOTE
+      type: SKULL_ITEM
+      owner: '{player}'
+      name: '&6{player}'
+      lore:
+        - '&7Abaixo estão suas informações:'
+        - ''
+        - ' &8▶ &7Votou: &f{votes} &7vezes'
+        - ' &8▶ &7Pontos: &f{points} &6&l⎈'
+        - ''
+        - '&7Clique para votar no servidor!'
+      slot: 11
+    shop:
+      action: SHOP
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRkYjI0YTAwYWZkMTFjNTQyYjVmZWVlMDBjN2I0MTZkNzhhNjhiNmYwMzY3YTllMTAyNWYwYTJmY2FkMTNhNiJ9fX0=
+      name: '&6Loja'
+      lore:
+        - '&7Clique para acessar'
+        - '&7a loja de pontos!'
+      slot: 13
+    top:
+      action: TOP
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRhZjhkNTc1ZjBhNTI0ZWY2NmEyMTU3M2U4YTRhOGFjN2Q2NDBiMDBkOThlMmU5Mzc0ZTYwNDcwZTdjODZmMCJ9fX0=
+      name: '&6Top Votos'
+      lore:
+        - '&7Clique para ver os jogadores'
+        - '&7que mais votaram no servidor!'
+      slot: 15

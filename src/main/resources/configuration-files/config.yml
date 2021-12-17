@@ -1,0 +1,64 @@
+MySQL:
+  enabled: false
+  host: 'localhost'
+  database: 'db'
+  username: 'user'
+  password: 'pass'
+  port: 3306
+
+Settings:
+  save-interval: 600
+  points-per-vote: 500
+  command: vote
+  aliases: [votar, voto]
+
+Messages:
+  invalid-amount: '&6&lVoltz&f&lMC &8&l➜ &cA quantia informada é inválida!'
+  insufficient-points: '&6&lVoltz&f&lMC &8&l➜ &cVocê não possui pontos suficientes! ({has}/{need})'
+  need-space: '&6&lVoltz&f&lMC &8&l➜ &cVocê não possui espaço suficiente no seu inventário! ({has}/{need})'
+  vote-links:
+    - '&6&lVoltz&f&lMC &8&l➜ &7Vote nos links abaixo:'
+    - ''
+    - ' &8▶ &7<link>'
+  successful-vote:
+    - ''
+    - '&6&lVoltz&f&lMC &8&l➜ &7Obrigado por votar no servidor =)'
+    - '&6&lVoltz&f&lMC &8&l➜ &7Você recebeu &f{points} &6&l⎈ &7como recompensa!'
+    - '&6&lVoltz&f&lMC &8&l➜ &7Gaste seus pontos digitando &f/voto shop&7.'
+    - ''
+  choose-amount:
+    - ''
+    - '&6&lVoltz&f&lMC &8&l➜ &7Digite no chat quantos itens deseja comprar!'
+    - ''
+    - ' &8▶ &7Comprando: &f{item}'
+    - ' &8▶ &7Preço: &f{price} &6&l⎈'
+    - ''
+  successful-purchased:
+    - ''
+    - '&6&lVoltz&f&lMC &8&l➜ &7Compra efetuada com sucesso!'
+    - ''
+    - ' &8▶ &7Item adquirido: &f{item}'
+    - ' &8▶ &7Quantia: &fx{amount}'
+    - ' &8▶ &7Preço: &f{price} &6&l⎈'
+    - ''
+
+Next-Page:
+  type: ARROW
+  name: '&aPróxima Página'
+
+Previous-Page:
+  type: ARROW
+  name: '&cPágina Anterior'
+
+Number-Formatter:
+  - "k"
+  - "M"
+  - "B"
+  - "T"
+  - "Q"
+  - "QQ"
+  - "S"
+  - "SS"
+  - "O"
+  - "N"
+  - "D"
